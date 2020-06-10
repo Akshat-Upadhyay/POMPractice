@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [HubSpot Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="HubSpot Fuctional Testing(failed)">
+    <classes>
+      <class name="com.qa.hubspot.tests.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="verifyLoginPage_TitleTest"/>
+          <include name="tearDown"/>
+          <include name="verifyLoginPage_LoginClickTest"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- HubSpot Fuctional Testing(failed) -->
+</suite> <!-- Failed suite [HubSpot Suite] -->
